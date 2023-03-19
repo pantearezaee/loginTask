@@ -158,6 +158,7 @@ body {
 
 img {
   border-radius: 50%;
+  margin-top: 20px;
 }
 
 header {
@@ -169,14 +170,14 @@ div.getpassword {
   width: 98%;
   height: 20%;
   background-color: var(--primary_white);
-  margin: 20px auto;
+  margin: 20px auto 30px;
   line-height: 30px;
   border-radius: var(--primary-border-radius);
   padding: 10px 15px;
 }
 
 div.email {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 input {
