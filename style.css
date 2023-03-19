@@ -139,9 +139,9 @@ body {
   height: 98%;
   background-color: rgba(241, 250, 255, 0.781);
   border-radius: var(--primary-border-radius);
-  padding: 30px;
+  padding: 50px 30px;
   /* padding-bottom: 130px; */
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 700px) {
@@ -150,9 +150,9 @@ body {
     height: 98%;
     background-color: rgba(241, 250, 255, 0.781);
     border-radius: var(--primary-border-radius);
-    padding: 30px;
+    padding: 50px 30px;
     /* padding-bottom: 130px; */
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -172,11 +172,11 @@ div.getpassword {
   margin: 20px auto;
   line-height: 30px;
   border-radius: var(--primary-border-radius);
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 div.email {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 input {
@@ -198,6 +198,12 @@ button {
   margin: 0 auto;
   width: 98%;
   height: 50px;
+}
+
+div.login,
+button:hover {
+  color: rgb(44, 44, 104);
+  background-color: var(--primary_white);
 }
 
 div.login {
