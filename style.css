@@ -1,0 +1,226 @@
+/* reseting default settings */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* main styles */
+:root {
+  --primary_white: rgb(255, 255, 255);
+  --primary-border-radius: 20px;
+}
+
+body {
+  background-color: rgb(222, 230, 250);
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 98%;
+  background-color: rgba(241, 250, 255, 0.781);
+  border-radius: var(--primary-border-radius);
+  padding: 30px;
+  /* padding-bottom: 130px; */
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    width: 40%;
+    height: 98%;
+    background-color: rgba(241, 250, 255, 0.781);
+    border-radius: var(--primary-border-radius);
+    padding: 30px;
+    /* padding-bottom: 130px; */
+    margin-top: 10px;
+  }
+}
+
+img {
+  border-radius: 50%;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+div.email,
+div.getpassword {
+  width: 98%;
+  height: 20%;
+  background-color: var(--primary_white);
+  margin: 20px auto;
+  line-height: 30px;
+  border-radius: var(--primary-border-radius);
+  padding: 15px;
+}
+
+div.email {
+  margin-top: 80px;
+}
+
+input {
+  border: none;
+  background-color: var(--primary_white);
+  border-radius: var(--primary-border-radius);
+}
+
+input:focus-visible {
+  outline: none;
+}
+div.login,
+button {
+  border: none;
+  border-radius: 60px;
+  background-color: rgb(44, 44, 104);
+  color: aliceblue;
+  font-weight: 900;
+  margin: 0 auto;
+  width: 98%;
+  height: 50px;
+}
+
+div.login {
+  text-align: center;
+}
+
+.row {
+  padding: 30px 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.549);
+}
+
+.forgetpass {
+  text-align: end;
+}
+
+input::placeholder {
+  color: rgba(40, 40, 40, 0.549);
+  font-size: 13px;
+  font-weight: lighter;
+}
